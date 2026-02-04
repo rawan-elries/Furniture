@@ -323,19 +323,20 @@ section
 @media (max-width: 767px) 
 {
   #why {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   nav {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .block,
   .grid,
   .table {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
+
 
 
 
