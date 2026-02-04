@@ -316,26 +316,8 @@ section
     text-align: center;
     font-size: larger;
     margin-top: 17px;
-
 }
 
-
-@media (max-width: 767px) 
-{
-  #why {
-    flex-direction: row;
-  }
-
-  nav {
-    flex-direction: row;
-  }
-
-  .block,
-  .grid,
-  .table {
-    flex-direction: row;
-  }
-}
 
 
 
