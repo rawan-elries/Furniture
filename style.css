@@ -1,0 +1,317 @@
+#why{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    gap: 50px;
+    margin-bottom: 30px;
+
+    h3
+    {
+        margin-bottom: 10px;
+    }
+
+    div:first-child{
+        width: 600px;
+        font-weight: bold;
+        font-size: 23px;
+        h2
+        {
+            font-weight: 900;
+        }
+    }
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+ 
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+
+nav ul a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+
+section
+{
+    text-align: center;
+    margin-top: 20px;
+
+
+    h1
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+
+.button
+{
+    border-radius: 17px;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(245, 242, 242, 0.575);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.button:active
+{
+    transform: scale(0.97);
+}
+
+
+.header
+{
+    background-image: url("./Images/d2bee09011d0ef5c5aab59b69714774a45812d7d.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: azure;
+}
+
+
+.list a
+{
+    color: rgb(94, 65, 15);
+    width: 250px;
+    padding-top: 7px;
+    gap: 30px;
+    text-decoration: none;
+}
+
+
+.list
+{
+    background-color: #ffffff;
+    width: 300px;
+    height: 30px;
+    border-radius: 17px;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 7px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+   
+}
+
+
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+}
+
+
+.gallery img
+{
+    transition: transform 0.5 ease-in-out;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+
+.gallery:hover img
+{
+    transform: scale(1.07);
+}
+
+
+.info
+{
+    color: rgb(233, 116, 14);
+    padding: 0;
+    margin: 0;
+    text-indent: 0;
+    margin-bottom: 30px;
+    margin-top: 17px;
+    height: 30px;
+    width: 700px;
+    text-decoration: none;
+}
+
+
+.block
+{
+    display: flex;
+    gap: 30px;
+}
+
+
+.edit
+{
+    margin-top: 70px;
+}
+
+
+.table
+{
+    display: flex;
+    background-color: black;
+    color: azure;
+    gap: 70px;
+    width: 1300px;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 170px;
+    background-color:rgb(212, 222, 222);
+    color: black;
+    height: 300px;
+}
+
+
+.table h1
+{
+    padding: 0  ;
+}
+
+
+.space
+{
+    height: 17px;
+    width: 300px;
+}
+
+
+.title
+{
+    color: rgb(240, 73, 8);
+    font-size: medium;
+    text-align: center;
+}
+
+
+.margin
+{
+    margin-top: 150px;
+}
+
+
+.margin1
+{
+    margin-top: 93px;
+}
+
+
+.margin2
+{
+    margin-top: 83px;
+}
+
+
+.grid
+{
+    display: flex;
+    /* gap: 30px; */
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.out 
+{
+     border-radius: 30px;
+     overflow:hidden;
+    position:relative;
+}
+
+
+.out img
+{
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.out:hover img
+{
+    transform: scale(1.07);
+}
+
+
+.out1
+{
+     border-radius: 35px;
+     overflow:hidden;
+    position:relative;
+    margin-top: -25px;
+}
+
+
+.out1 img
+{
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.out1:hover img
+{
+    transform: scale(1.07);
+}
+
+
+.in1
+{
+    background-color: azure;
+    padding: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    border-radius: 15px;
+} 
+
+
+.in
+{
+    background-color: azure;
+    padding: 30px;
+    position: absolute;
+    bottom: 17px;
+    left: 15px;
+    right: 15px;
+    border-radius: 15px;
+} 
+
+
+.edit1
+{
+    margin-top: 70px;
+    color: darkorange;
+    font-size: large;
+}
+
+
+.bold
+{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -10px;
+}
+
+
+.footer
+{
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    margin-top: 17px;
+}
