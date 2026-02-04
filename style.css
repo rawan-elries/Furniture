@@ -314,4 +314,19 @@ section
     text-align: center;
     font-size: larger;
     margin-top: 17px;
+
 }
+
+
+@media (max-width: 767px)
+{
+  #why,
+  nav,
+  .block,
+  .grid,
+  .table {
+    flex-direction: column;
+  }
+}
+
+
