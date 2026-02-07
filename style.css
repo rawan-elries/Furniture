@@ -326,34 +326,6 @@ section h1
 }
 
 
-@media (max-width: 576px)
-{
-    .header
-    {
-        height: 50vh;
-    }
-
-    .table
-    {
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        gap: 30px;
-    }
-
-    .block
-    {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .gallery
-    {
-        grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
-    }
-}
-
-
 @media (max-width: 576px) {
 
     #why {
@@ -368,14 +340,16 @@ section h1
     }
 
     nav {
-        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 15px;
+        padding: 15px;
     }
 
     nav ul {
-        flex-direction: column;
-        gap: 12px;
+        diplay: flex;
+        flex-direction: row;
+        gap: 10px;
         padding: 0;
     }
 
@@ -422,6 +396,7 @@ section h1
         margin-top: 0;
     }
 }
+
 
 
 
