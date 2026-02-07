@@ -1,26 +1,24 @@
-
-
-#why{
+#why
+{
     display: flex;
     justify-content: space-between;
     padding: 70px;
     gap: 50px;
     margin-bottom: 30px;
+}
 
-    h3
-    {
-        margin-bottom: 10px;
-    }
 
-    div:first-child{
-        width: 600px;
-        font-weight: bold;
-        font-size: 23px;
-        h2
-        {
-            font-weight: 900;
-        }
-    }
+#why h3 
+{
+    margin-bottom: 10px;
+}
+
+
+#why div:first-child
+{
+    width: 600px;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 
@@ -51,12 +49,12 @@ section
 {
     text-align: center;
     margin-top: 20px;
+}
 
 
-    h1
-    {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+section h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -354,6 +352,77 @@ section
         grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
     }
 }
+
+
+@media (max-width: 576px) {
+
+    #why {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #why div:first-child {
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 12px;
+        padding: 0;
+    }
+
+    .header {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .block {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .table {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 20px;
+        margin-top: 50px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .out,
+    .out1 {
+        margin-top: 0;
+    }
+}
+
 
 
 
