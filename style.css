@@ -319,6 +319,44 @@ section
 }
 
 
+.footer
+{
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    margin-top: 17px;
+}
+
+
+@media (max-width: 576px)
+{
+    .header
+    {
+        height: 50vh;
+    }
+
+    .table
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 30px;
+    }
+
+    .block
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .gallery
+    {
+        grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
+    }
+}
+
+
+
 
 
 
