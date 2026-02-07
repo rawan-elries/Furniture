@@ -26,6 +26,7 @@ nav
 {
     display: flex;
     justify-content: space-between;
+    align-center: center;
     padding: 30px;
 }
  
@@ -33,6 +34,7 @@ nav
 nav ul
 {
     display: flex;
+    flex-direction:row;
     list-style: none;
     gap: 30px;
 }
@@ -396,6 +398,7 @@ section h1
         margin-top: 0;
     }
 }
+
 
 
 
